@@ -1,0 +1,94 @@
+.black {
+    font-family: "muli";
+    font-weight: 900;
+}
+
+.muli {
+    font-family: "muli";
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.size-02 {font-size: .2em}
+.size-03 {font-size: .3em}
+.size-04 {font-size: .4em}
+.size-05 {font-size: .5em}
+.size-1  {font-size: 1em}
+.size-2  {font-size: 2em}
+.size-3  {font-size: 3em}
+.size-4  {font-size: 4em}
+.size-5  {font-size: 5em}
+.size-6  {font-size: 6em}
+
+.bar {
+    width: 30%;
+    height: 10px;
+    background-color: rgb(97, 209, 209);
+    border-radius: 5px;
+}
+
+.landing {
+    background-image: url("../imgs/landing.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.hero-bg {
+    background-image: url("../imgs/hero-bg.jpg");
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.intro {
+    background-image: url("../imgs/mtrpldn.jpg");
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: left; 
+}
+
+.vegan {
+    background-image: url("../imgs/vegan.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.clients {
+    background-image: url("../imgs/clients.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.showcase {
+    background-image: url("../imgs/notepad.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.navbar-style {
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 10px;
+}
+
+.button-custom {
+    padding: 18px;
+    border-radius: 25px;
+    color: white !important;
+    background: linear-gradient(#80DBDC,rgb(98, 209, 209));
+    border: none;
+    width: 200px;
+    transition: 1s;
+
+}
+    .button-custom:hover {
+        background: linear-gradient(rgb(135, 233, 233),rgb(123, 231, 231));
+        cursor: pointer;
+    }
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 1024px) {
+    .hero-bg, .intro {
+        background-image: none;
+    }
+}
